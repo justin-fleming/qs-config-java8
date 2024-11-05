@@ -56,7 +56,7 @@
 <!--	<webAppSecurity allowFailOverToBasicAuth="true" useAuthenticationDataForUnprotectedResource="false"/> -->
 	
 <!-- Binding for QuickSec application -->
-	<application context-root="QuickSec" id="QuickSec" location="${server.config.dir}/apps/QuickSec-ee8.ear" name="QuickSec" type="ear">
+	<application context-root="QuickSec" id="QuickSec" location="QuickSec-ee8.ear" name="QuickSec" type="ear">
 	<application-bnd> 
 	   <security-role name="OtherLogin_WebUsers">
 				<user name="tambolims@gmail.com"/>
