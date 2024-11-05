@@ -49,7 +49,7 @@
                       portNumber="db2 port>"
                       databaseName="MSGRDB"
                       sslConnection="true"
-                      user="<db2 username>"
+                      user="db2 username"
                       password="{mydb.password}"/>
 </dataSource>
 <!-- This allows certificate client to use basic authentication if certificate authentication does not succeed -->
