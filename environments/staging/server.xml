@@ -45,8 +45,8 @@
 	<include location="${shared.resource.dir}/ease/db2/jdbc4.xml"/>
 
 <dataSource jndiName="jdbc/Messenger"  jdbcDriverRef="ease.db2jcc4">
-  <properties.db2.jcc serverName="db2 hostname>"
-                      portNumber="db2 port>"
+  <properties.db2.jcc serverName="db2 hostname"
+                      portNumber="db2 port"
                       databaseName="MSGRDB"
                       sslConnection="true"
                       user="db2 username"
