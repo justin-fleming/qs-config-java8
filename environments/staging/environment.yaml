@@ -9,5 +9,3 @@ app:
   instances:
     min: 1
     max: 1
-
- 
